@@ -1,0 +1,22 @@
+<div class="aj-admin">
+    <h1 class="title">{{ title }}</h1>
+    <p>{{ info }}</p>
+
+    <hr>
+    <section class="product-importer">
+        <h3>Import from File</h3>
+        <p>Import and Update Woocommerce products from a file. The file must be of type XLSX and formatted in Quintessence Jewelry standard format.</p>
+        <form>
+            <input type="file" name="path" id="path">
+        </form>
+        <br>
+        <button id="file-import-button">Begin Import</button>
+    </section>
+    <hr>
+    <section class="results">
+        <textarea id="output" rows="10" cols="50">
+            import results will show here
+        </textarea>
+    </section>
+
+</div>

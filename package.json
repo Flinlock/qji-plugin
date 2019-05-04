@@ -1,0 +1,22 @@
+{
+  "name": "qj-interface",
+  "version": "1.0.0",
+  "description": "Custom WordPress Plugin powering interaction with the Quintessence Jewelry backend",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Flinlock/qji-plugin"
+  },
+  "keywords": [
+    "wordpress"
+  ],
+  "author": "TWIRLTECH",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.2.1",
+    "xlsx": "^0.13.0"
+  }
+}
